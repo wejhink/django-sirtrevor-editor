@@ -1,4 +1,4 @@
 Django
 Pillow
-django-sirtrevor
-django-sirtrevor-file
+django-sirtrevor-editor
+django-sirtrevor-editor-file

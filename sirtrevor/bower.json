@@ -1,9 +1,9 @@
 {
-  "name": "django-sirtrevor",
+  "name": "django-sirtrevor-editor",
   "version": "0.1.0",
-  "homepage": "https://github.com/iraycd/django-sirtrevor",
+  "homepage": "https://github.com/iraycd/django-sirtrevor-editor",
   "authors": [
-    "Philipp Bosch <hello@pb.io>",
+    "We Jhink <we@jhink.com>",
     "Ray Ch <i@iraycd.com>"
   ],
   "keywords": [

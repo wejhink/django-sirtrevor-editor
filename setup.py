@@ -8,7 +8,7 @@ except ImportError:
     from setuptools import setup
 
 setup(
-    name='django-sirtrevor',
+    name='django-sirtrevor-editor-editor',
     version='0.2.4',
     packages=['sirtrevor'],
     include_package_data=True,
@@ -17,9 +17,9 @@ setup(
                 'corresponding widget based on the fantastic Sir Trevor ' +
                 'project',
     long_description=open('README.rst', 'r').read(),
-    url='https://github.com/philippbosch/django-sirtrevor/',
-    author='Philipp Bosch',
-    author_email='hello@pb.io',
+    url='https://github.com/wejhink/django-sirtrevor-editor/',
+    author='We Jhink',
+    author_email='we@jhink.com',
     install_requires=['markdown2', 'django-appconf', 'django', 'six'],
     classifiers=[
         'Environment :: Web Environment',

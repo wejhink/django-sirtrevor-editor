@@ -91,7 +91,7 @@ MEDIA_ROOT = 'media'
 MEDIA_URL = '/media/'
 
 
-# django-sirtrevor
+# django-sirtrevor-editor
 
 SIRTREVOR_BLOCK_TYPES = ['Text', 'List', 'Quote', 'Image', 'Video', 'Tweet', 'Heading', 'File']
 SIRTREVOR_ATTACHMENT_PROCESSOR = 'sirtrevor.utils.resize_image_attachment'

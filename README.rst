@@ -1,16 +1,17 @@
-django-sirtrevor
+django-sirtrevor-editor
 ================
 
-**django-sirtrevor** is a simple Django app that provides a content editing
+**django-sirtrevor-editor** is a simple Django app that provides a content editing
 widget based on the fantastic `Sir Trevor`_ project.
 
+**Forked** from django-sirtrevor
 
 Quick start
 -----------
 
-1. Install django-sirtrevor::
+1. Install django-sirtrevor-editor::
 
-    pip install django-sirtrevor
+    pip install django-sirtrevor-editor
 
 2. Add ``sirtrevor`` to your INSTALLED_APPS setting like this::
 
@@ -76,7 +77,7 @@ them project-wide in your ``settings.py`` or some on a per-widget basis as
 ``SIRTREVOR_UPLOAD_URL`` / ``st_upload_url``
     URL for AJAX image uploads.
     Defaults to ``/sirtrevor/attachments/`` (depending on where you include
-    django-sirtrevor's URLs in ``urls.py``)
+    django-sirtrevor-editor's URLs in ``urls.py``)
 
 ``SIRTREVOR_UPLOAD_PATH``
     Path where to store uploaded images relative to ``MEDIA_ROOT``. (not
@@ -123,7 +124,7 @@ Custom Blocks
 -------------
 
 *Sir Trevor* can be extended through `custom blocks`_. Starting with 0.2.1
-*django-sirtrevor* also has basic support for custom blocks.
+*django-sirtrevor-editor* also has basic support for custom blocks.
 
 Here is a little step-by-step guide:
 
@@ -173,7 +174,7 @@ about the JavaScript part of a custom block.
     # ...
 
 
-For reference please check out `django-sirtrevor-file`_ which implements a
+For reference please check out `django-sirtrevor-editor-file`_ which implements a
 simple block type for file downloads.
 
 
@@ -185,9 +186,9 @@ MIT_
 
 
 .. _Sir Trevor: http://madebymany.github.io/sir-trevor-js/
-.. _MIT: http://philippbosch.mit-license.org/
+.. _MIT: http://jhink.mit-license.org/
 .. _configuration options: http://madebymany.github.io/sir-trevor-js/docs.html#2
-.. _key features: https://github.com/philippbosch/django-sirtrevor/issues/2
+.. _key features: https://github.com/wejhink/django-sirtrevor-editor/issues/2
 .. _below: #resizing-images
 .. _custom blocks: http://madebymany.github.io/sir-trevor-js/docs.html#4
-.. _django-sirtrevor-file: https://github.com/philippbosch/django-sirtrevor-file
+.. _django-sirtrevor-editor-file: https://github.com/wejhink/django-sirtrevor-editor-file
